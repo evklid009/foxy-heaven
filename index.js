@@ -50,7 +50,7 @@ var delay_popup = 10;
 
 $(document).ready(function() {
 
-      // Функция открытия модального окна
+     
     
       $(".modal-link").on("click", function() {
     
@@ -58,7 +58,7 @@ $(document).ready(function() {
     
       });
     
-      // Функция закрытия модального окна нажатием на кнопку
+      
     
       $(".modal__close").on("click", function() {
     
@@ -66,7 +66,7 @@ $(document).ready(function() {
     
       });
     
-      // Функция закрытия модального окна нажатием вне окна
+     
     
       
     
