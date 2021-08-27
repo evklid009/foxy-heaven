@@ -722,15 +722,15 @@ h3.title-example{
 .buy-a-friend-item:after {
     content: '';
     display: block;
-    height: 2px; /* Высота линии */
-    background: #f66d52; /* Цвет линии */
-    width: 150px; /* Ширина линии до наведения */
-    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
-	transition: 1s; /* Время, за которое линия возвращается после наведения */
+    height: 2px; 
+    background: #f66d52; 
+    width: 150px; 
+    margin: 10px auto 0;
+    transition: 1s; 
 }
 .buy-a-friend-item:hover:after {
-    width: 400px; /* Ширина линии при наведении */
-	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+    width: 400px; 
+    transition: ease-out 1s; 
 }
 
 .buy-a-friend-btn {
