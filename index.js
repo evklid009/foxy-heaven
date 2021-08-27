@@ -20,7 +20,7 @@ const swiper = new Swiper('.swiper', {
   
   });
 
-  $(function() {
+$(function() {
  
     $(window).scroll(function() {
      
@@ -44,13 +44,17 @@ const swiper = new Swiper('.swiper', {
      
     });
 
+
+
+
+
 var delay_popup = 10;
     setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
 
 
-$(document).ready(function() {
 
-      // Функция открытия модального окна
+
+$(document).ready(function() {
     
       $(".modal-link").on("click", function() {
     
@@ -58,19 +62,11 @@ $(document).ready(function() {
     
       });
     
-      // Функция закрытия модального окна нажатием на кнопку
-    
       $(".modal__close").on("click", function() {
     
         $(".modal-overlay").removeClass("modal-overlay_visible");
     
       });
-    
-      // Функция закрытия модального окна нажатием вне окна
-    
-      
-    
-
     
 });
 
